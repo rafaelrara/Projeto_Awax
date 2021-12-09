@@ -33,6 +33,7 @@ header{
     width: 80px;
     height: 80px;
     background-color: #b28756;
+    border-radius: 40px;
 }
 
 .menu{
@@ -65,4 +66,63 @@ header{
 .menu li a:hover,
 .menu .active a{
     border-bottom: 5px solid #b28756;
+    color: #ccc;
+}
+
+.banner{
+    background-color: #333;
+    height:calc(100vh - 100px);
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.banner .sliders{
+    width: 1000vw;
+    height: 100%;
+}
+
+.banner .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.banner .slidearea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.banner h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner h1 span{
+    color: #b28756;
+}
+
+.banner h2{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.banner a{
+    display: block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
 }
