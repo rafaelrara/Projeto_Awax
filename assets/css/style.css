@@ -445,3 +445,68 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-team--social a:hover{
     background-color: #b28756;
 }
+
+
+
+.section-clients{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.section-clients--name{
+    text-align: center;
+}
+
+.section-clients--name h3{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.section-clients--name p{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+.section-clients--desc{
+    max-width: 680px;
+    text-align:center;
+    margin-top: 10px;
+}
+
+.section-clients .sliders-pointers{
+    width: 100vw;
+    height: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-clients .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-clients .pointer.active{
+    background-color: #b28756;
+}
+
+.section-logos{
+    display: flex;
+    justify-content: center;
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-logos img{
+    padding: 30px;
+}
