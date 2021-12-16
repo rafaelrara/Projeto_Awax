@@ -14,8 +14,8 @@ body{
 
 header{
     height: 100px;
-    background-color: #F6F4EB;
-    color: rgb(0, 0, 0);
+    background-color: black;
+    color: white;
 }
 
 .header{
@@ -27,10 +27,14 @@ header{
 }
 
 .logo{
+    width: 100px;
 }
 
 .logoimg{
-    height: 100px;;
+    width: 80px;
+    height: 80px;
+    background-color: #b28756;
+    border-radius: 40px;
 }
 
 .menu{
@@ -49,7 +53,7 @@ header{
 }
 
 .menu li a{
-    color: rgb(122, 122, 122);
+    color: white;
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
@@ -57,18 +61,18 @@ header{
     height: 100px;
     display: flex;
     align-items: center;
-    border-bottom: 5px solid #F6F4EB;
+    border-bottom: 5px solid black;
 }
 
 .menu li a:hover,
 .menu .active a{
-    border-bottom: 5px solid #336196;
-    color: #336196;
+    border-bottom: 5px solid #b28756;
+    color: #ccc;
 }
 
 .button{
     display: inline-block;
-    background-color: #336196;
+    background-color: #b28756;
     color: #fff;
     text-transform: uppercase;
     font-size: 12px;
@@ -80,12 +84,11 @@ header{
 }
 
 .banner{
-    background-color: rgb(255, 255, 255);
+    background-color: #333;
     height:calc(100vh - 100px);
-    background-image: url(/media/slide-1.png);
-    background-size:60%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
     overflow: hidden;
 }
 
@@ -98,7 +101,7 @@ header{
     width: 100vw;
     height: 100%;
     display: inline-block;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .7);
 }
 
 .banner .slidearea{
@@ -117,7 +120,7 @@ header{
 }
 
 .banner h1 span{
-    color: #336196;
+    color: #b28756;
 }
 
 .banner h2{
@@ -138,7 +141,7 @@ header{
 .banner .pointer{
     width: 15px;
     height: 15px;
-    border: 2px solid #336196;
+    border: 2px solid #b28756;
     border-radius: 8px;
     margin-left: 5px;
     margin-right: 5px;
@@ -146,7 +149,7 @@ header{
 }
 
 .banner .pointer.active{
-    background-color: #336196;
+    background-color: #b28756;
 }
 
 .default{
@@ -221,7 +224,7 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .section-aboutus--right img{
-    height: 380px;
+    width: 480px;
     box-shadow: 0px 5px 10px #333;
 }
 
@@ -287,7 +290,7 @@ CSS DE ÁREAS ESPECÍFICAS
 
 .section-projects--filters li:hover,
 .section-projects--filters li.active{
-    border-bottom: 3px solid #336196;
+    border-bottom: 3px solid #b28756;
 }
 
 .section-projects--filters li:first-child{
@@ -394,7 +397,7 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-team-area .pointer{
     width: 15px;
     height: 15px;
-    border: 2px solid #336196;
+    border: 2px solid #b28756;
     border-radius: 8px;
     margin-left: 5px;
     margin-right: 5px;
@@ -402,7 +405,7 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .section-team-area .pointer.active{
-    background-color: #336196;
+    background-color: #b28756;
 }
 
 .section-team--avatar{
@@ -440,7 +443,7 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .section-team--social a:hover{
-    background-color: #336196;
+    background-color: #b28756;
 }
 
 
@@ -486,7 +489,7 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-clients .pointer{
     width: 15px;
     height: 15px;
-    border: 2px solid #336196;
+    border: 2px solid #b28756;
     border-radius: 8px;
     margin-left: 5px;
     margin-right: 5px;
@@ -494,7 +497,7 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .section-clients .pointer.active{
-    background-color: #336196;
+    background-color: #b28756;
 }
 
 .section-logos{
